@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663253106721",
+    "project_id": "fir-portepros",
+    "storage_bucket": "fir-portepros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663253106721:android:102c76e20ceea8c0e8a360",
+        "android_client_info": {
+          "package_name": "com.example.portepros2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsa5bFI7wVwmMAV9BAforK3iYFg4h4Ji4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

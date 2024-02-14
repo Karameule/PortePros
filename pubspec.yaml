@@ -1,0 +1,29 @@
+name: portepros2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  go_router: ^13.0.1
+  cloud_firestore: ^4.15.4
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_ui_auth: ^1.13.0
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/PortePros_LOGO.jpg
+  uses-material-design: true

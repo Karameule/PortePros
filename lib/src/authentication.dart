@@ -20,6 +20,18 @@ class AuthFunc extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Visibility(
+            visible: loggedIn,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 24, bottom: 8),
+              child: StyledButton(
+                onPressed: () {
+                  context.go('/profile');
+                },
+                child: const Text('Profil'),
+              ),
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.only(left: 24, bottom: 8),
             child: StyledButton(
@@ -39,9 +51,9 @@ class AuthFunc extends StatelessWidget {
               padding: const EdgeInsets.only(left: 24, bottom: 8),
               child: StyledButton(
                 onPressed: () {
-                  context.go('/profile');
+                  context.go('/ranking'); // Redirige vers la page de classement
                 },
-                child: const Text('Profil'),
+                child: const Text('Classement'),
               ),
             ),
           ),

@@ -7,6 +7,7 @@ import 'sales_page.dart';
 
 import 'app_state.dart'; // new
 import 'home_page.dart';
+import 'ranking_page.dart';
 
 void main() {
   // Modify from here...
@@ -94,6 +95,10 @@ final _router = GoRouter(
           path: 'sales', // Chemin vers la page des ventes
           builder: (context, state) =>
               SalesPage(), // Builder de la page des ventes
+        ),
+        GoRoute(
+          path: 'ranking',
+          builder: (context, state) => RankingPage(),
         ),
       ],
     ),

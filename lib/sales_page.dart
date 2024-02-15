@@ -6,7 +6,7 @@ class SalesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sales Page'),
+        title: Text('Page des ventes'),
       ),
       body: Column(
         children: [
